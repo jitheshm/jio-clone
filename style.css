@@ -63,7 +63,9 @@ input{
     color: #ffffff;
 }
 
-    
+    .navbar-toggler:focus,.navbar-toggler:active{
+        box-shadow: none;
+    }
 
 @media (min-width:481px) {
     .navbar-collapse{
