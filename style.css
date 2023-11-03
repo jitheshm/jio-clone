@@ -16,6 +16,7 @@ img{
 
 .navbar-expand-lg .navbar-nav{
     gap: 20px;
+    align-items: center;
     
     
 }
@@ -36,6 +37,30 @@ img{
     display: flex;
     justify-content: center;
     padding: 5px;
+}
+.navSearchContainer{
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+    background-color: #0a2885;
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 40px;
+    
+}
+.navSearch{
+    height: 20px;
+}
+.row{
+    align-items: center;
+}
+.navbar-toggler{
+    border: none;
+}
+input{
+    background-color: #0a2885;
+    border: none;
+    color: #ffffff;
 }
 
     
