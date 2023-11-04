@@ -165,14 +165,12 @@ input {
 
 
 video{
+    object-fit: cover;
     height: 100%;
     width: 100%;
     
 }
-
-
-
-@media (min-width:481px) {
+@media (min-width:991px) {
     .posterData{
         justify-content: space-between;
     }
@@ -180,27 +178,44 @@ video{
     .jioCinemaPoster div{
         height: 100%;
     }
-    .navbar-collapse {
-        margin-left: 50px;
-    }
     .videoContainer{
         height:448px!important;
     
     }
+    video{
+        object-fit: cover;
+    }
+}
 
+
+@media (min-width:481px) {
+    
+    .navbar-collapse {
+        margin-left: 50px;
+    }
+    
 /* .videoContainer{
     margin-top: -45px;
     
 } */
-video{
-    object-fit: cover;
+.videoContainer{
+    height: 204px;
 }
 
+
+
+
     
     
 
 
 
+}
+@media (max-width:991px) {
+    .posterData{
+        flex-direction: column-reverse;
+    }
+    
 }
 
 @media (max-width: 480px) {
