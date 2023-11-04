@@ -144,6 +144,20 @@ input {
     border-radius: 20px;
 }
 
+.dataTitle{
+    margin: auto;
+    text-align: center;
+}
+
+.dataTitle h2{
+    font-size: 2.rem;
+    font-weight: 900!important;
+}
+.dataTitle p{
+    font-weight: 600!important;
+    color: #000000a6;
+}
+
 @media (min-width:481px) {
     .navbar-collapse {
         margin-left: 50px;
