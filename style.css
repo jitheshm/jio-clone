@@ -158,11 +158,45 @@ input {
     color: #000000a6;
 }
 
+.jioCinemaPoster{
+    background-color: #D9008D;
+    min-height: 448px;
+}
+
+
+video{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
 @media (min-width:481px) {
+    .posterData{
+        justify-content: space-between;
+    }
+
+    .jioCinemaPoster div{
+        height: 100%;
+    }
     .navbar-collapse {
         margin-left: 50px;
     }
+    .videoContainer{
+        height:448px!important;
+    
+    }
 
+/* .videoContainer{
+    margin-top: -45px;
+    
+} */
+video{
+    object-fit: cover;
+}
+
+    
     
 
 
@@ -196,4 +230,12 @@ input {
     .menuBar{
         gap: 40px;
     }
+
+    .videoContainer{
+        height: 204px;
+    }
+    .posterData{
+        flex-direction: column-reverse;
+    }
+    
 }
