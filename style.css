@@ -114,7 +114,7 @@ input {
 
 .menuBar{
     margin: auto;
-    height: 168px;
+    min-height: 168px;
     
     text-align: center;
 }
@@ -133,6 +133,15 @@ input {
 
 .iconText{
     font-weight: 500;
+}
+
+.posterCount{
+    margin: auto;
+    height: 450px;
+    background-image: url(https://jep-asset.akamaized.net/cms/assets/home/true5g-desk.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
 }
 
 @media (min-width:481px) {
