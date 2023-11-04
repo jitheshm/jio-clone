@@ -112,6 +112,29 @@ input {
     color: #ffffff;
 }
 
+.menuBar{
+    margin: auto;
+    height: 168px;
+    
+    text-align: center;
+}
+.iconContainer{
+    width: 60px;
+   padding: 15px;
+   
+    margin: auto;
+    border-radius: 60px;
+    background-color: #E7EBF8;
+}
+
+.iconContainer img{
+    width: 100%;
+}
+
+.iconText{
+    font-weight: 500;
+}
+
 @media (min-width:481px) {
     .navbar-collapse {
         margin-left: 50px;
@@ -146,5 +169,8 @@ input {
     .poster h1 {
         font-weight: 500;
         font-size: 2rem;
+    }
+    .menuBar{
+        gap: 40px;
     }
 }
