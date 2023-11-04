@@ -1,37 +1,45 @@
-.header{
+.header {
     background-color: #0f3cc9;
     height: 72px;
 }
-.navbar{
+
+.navbar {
     height: 100%;
-   
+
 }
-.logo{
+
+.logo {
     height: 40px;
-    
+
 }
-img{
+
+img {
     height: 100%;
+
 }
-a{
+
+a {
     width: 100%;
 }
 
-.navbar-expand-lg .navbar-nav{
-   
+.navbar-expand-lg .navbar-nav {
+
     align-items: center;
-    
-    
+
+
 }
-.nav-link{
-    color: #ffffff!important;
+
+.nav-link {
+    color: #ffffff !important;
     font-weight: 500;
 
 }
-.navbarIcon{
+
+.navbarIcon {
     gap: 1rem;
 }
-.navIcon{
+
+.navIcon {
     width: 30px;
     height: 30px;
     border-radius: 30px;
@@ -41,7 +49,8 @@ a{
     justify-content: center;
     padding: 5px;
 }
-.navSearchContainer{
+
+.navSearchContainer {
     display: flex;
     gap: 10px;
     margin-right: 10px;
@@ -49,43 +58,93 @@ a{
     margin-left: 20px;
     border-radius: 20px;
     height: 40px;
-    
+
 }
-.navSearch{
+
+.navSearch {
     height: 20px;
 }
-.row{
+
+.row {
     align-items: center;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     border: none;
 }
-input{
+
+input {
     background-color: #0a2885;
     border: none;
     color: #ffffff;
 }
 
-    .navbar-toggler:focus,.navbar-toggler:active{
-        box-shadow: none;
-    }
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    box-shadow: none;
+}
+
+.poster {
+    background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/Homepage-masthead.webp);
+    height: 380px;
+
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.poster h1 {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.poster h5{
+    color: #cac7c7;
+
+}
+
+.posterBtn{
+    gap: 10px;
+}
+.btn{
+    border-radius: 20px;
+    color: #ffffff;
+}
 
 @media (min-width:481px) {
-    .navbar-collapse{
+    .navbar-collapse {
         margin-left: 50px;
-        }   
-        
+    }
+
+    
+
+
+
 }
+
 @media (max-width: 480px) {
-    .header{
+    .header {
         height: 64px;
     }
-    .logo{
+
+    .logo {
         height: 30px;
-        
+
     }
-    .nav-link{
-        color: #000000!important;
-    
+
+    .poster {
+        height: 300px;
+        background-position: center center;
+        background-size: 100% 100%;
     }
-  }
+
+    .nav-link {
+        color: #000000 !important;
+
+    }
+    .poster h1 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+}
