@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .header {
     background-color: #0f3cc9;
     height: 72px;
@@ -169,6 +172,24 @@ video{
     height: 100%;
     width: 100%;
     
+}
+.slideCard{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    
+}
+.slideCard::-webkit-scrollbar {
+    display: none;
+}
+.cd1{
+    background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/JioCinema-19-05.webp);
+    height: 200px;
+    background-size: cover;
+    background-color: #D9008D;
+
+}
+.slideImgFooter{
+    text-align: center;
 }
 @media (min-width:991px) {
     .posterData{
