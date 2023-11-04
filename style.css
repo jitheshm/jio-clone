@@ -13,9 +13,12 @@
 img{
     height: 100%;
 }
+a{
+    width: 100%;
+}
 
 .navbar-expand-lg .navbar-nav{
-    gap: 1rem;
+   
     align-items: center;
     
     
@@ -26,7 +29,7 @@ img{
 
 }
 .navbarIcon{
-    gap: 10px;
+    gap: 1rem;
 }
 .navIcon{
     width: 30px;
@@ -71,9 +74,7 @@ input{
     .navbar-collapse{
         margin-left: 50px;
         }   
-        .logo{
-            margin-left: 50px;
-        }
+        
 }
 @media (max-width: 480px) {
     .header{
