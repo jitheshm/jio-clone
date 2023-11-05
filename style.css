@@ -321,6 +321,32 @@ video {
     font-weight: 700;
 }
 
+.footerContainer{
+    margin: auto;
+    align-items: start;
+    
+}
+
+.footerDataContainer a{
+    text-decoration: none;
+    color: #605856;
+}
+
+.footerBtn{
+    justify-content: space-between;
+}
+
+.footerRight h4{
+    font-weight: 900;
+}
+
+
+
+.footerRight .navIcon{
+    background-color: #0F3CC9;
+    margin-right: 10px;
+}
+
 @media (min-width:991px) {
     .posterData {
         justify-content: space-between;
@@ -379,6 +405,10 @@ video {
         flex-direction: column-reverse;
     }
 
+}
+
+.footerContainer{
+    gap: 20px;
 }
 
 @media (max-width: 480px) {
