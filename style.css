@@ -191,6 +191,23 @@ video{
 .slideImgFooter{
     text-align: center;
 }
+.adPromo{
+    margin: auto;
+    /* height: 400px; */
+    background-color: #6D17CE;
+    border-radius: 30px;
+    color: #ffffff;
+}
+/* .imageContainer{
+    
+    minheight: 399px;
+    
+   
+} */
+.imageContainer img{
+    border-radius: 30px;
+    width: 100%;
+}
 @media (min-width:991px) {
     .posterData{
         justify-content: space-between;
