@@ -274,6 +274,24 @@ video {
     background-position: center;
 }
 
+.storiesContainer{
+    margin: auto!important;
+    
+    justify-content: space-evenly;
+}
+.storiesContainer .btn{
+    width: 113px;
+    color: #0F3CC9;
+    font-weight: 700;
+}
+
+.storiesSection{
+    background-color: #F5F5F5;
+}
+.storiesSection .btnContainer{
+    text-align: center;
+}
+
 @media (min-width:991px) {
     .posterData {
         justify-content: space-between;
@@ -291,6 +309,7 @@ video {
     video {
         object-fit: cover;
     }
+   
 }
 
 
@@ -311,6 +330,8 @@ video {
     .shopPromo img {
         height: 23vw;
     }
+
+   
 
 
 
