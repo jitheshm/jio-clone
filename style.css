@@ -252,6 +252,21 @@ video {
     bottom: 0;
     background-color:#0F3CC9;
 }
+.productContainer{
+    margin: auto!important;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.productContainer .cardLabel{
+    background-color: #0C5273;
+    color: #ffffff;
+    width: fit-content;
+}
+
+.productSection{
+    text-align: center;
+}
 
 @media (min-width:991px) {
     .posterData {
