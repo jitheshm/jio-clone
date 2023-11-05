@@ -1,6 +1,7 @@
-body{
+body {
     overflow-x: hidden;
 }
+
 .header {
     background-color: #0f3cc9;
     height: 72px;
@@ -102,43 +103,46 @@ input {
     font-weight: 900;
     font-size: 3.5rem;
 }
-.poster h5{
+
+.poster h5 {
     color: #cac7c7;
 
 }
 
-.posterBtn{
+.posterBtn {
     gap: 10px;
 }
-.btn{
+
+.btn {
     border-radius: 20px;
     color: #ffffff;
 }
 
-.menuBar{
+.menuBar {
     margin: auto;
     min-height: 168px;
-    
+
     text-align: center;
 }
-.iconContainer{
+
+.iconContainer {
     width: 60px;
-   padding: 15px;
-   
+    padding: 15px;
+
     margin: auto;
     border-radius: 60px;
     background-color: #E7EBF8;
 }
 
-.iconContainer img{
+.iconContainer img {
     width: 100%;
 }
 
-.iconText{
+.iconText {
     font-weight: 500;
 }
 
-.posterCount{
+.posterCount {
     margin: auto;
     height: 450px;
     background-image: url(https://jep-asset.akamaized.net/cms/assets/home/true5g-desk.webp);
@@ -147,113 +151,160 @@ input {
     border-radius: 20px;
 }
 
-.dataTitle{
+.dataTitle {
     margin: auto;
     text-align: center;
 }
 
-.dataTitle h2{
+.dataTitle h2 {
     font-size: 3rem;
-    font-weight: 900!important;
+    font-weight: 900 !important;
 }
-.dataTitle p{
-    font-weight: 600!important;
+
+.dataTitle p {
+    font-weight: 600 !important;
     color: #000000a6;
 }
 
-.jioCinemaPoster{
+.jioCinemaPoster {
     background-color: #D9008D;
     min-height: 448px;
 }
 
 
-video{
+video {
     object-fit: cover;
     height: 100%;
     width: 100%;
-    
+
 }
-.slideCard{
+
+.slideCard {
     flex-wrap: nowrap;
     overflow-x: scroll;
-    
+
 }
+
 .slideCard::-webkit-scrollbar {
     display: none;
 }
-.cd1{
+
+.cd1 {
     background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/JioCinema-19-05.webp);
     height: 200px;
     background-size: cover;
     background-color: #D9008D;
 
 }
-.slideImgFooter{
+
+.slideImgFooter {
     text-align: center;
 }
-.adPromo{
+
+.adPromo {
     margin: auto;
     /* height: 400px; */
     background-color: #6D17CE;
     border-radius: 30px;
     color: #ffffff;
 }
+
 /* .imageContainer{
     
     minheight: 399px;
     
    
 } */
-.imageContainer img{
+.imageContainer img {
     border-radius: 30px;
     width: 100%;
 }
+.shopPromo .bodyTop{
+    position: relative;
+}
+
+.shopPromo .card {
+    margin: auto;
+
+
+}
+
+.shopPromo{
+    margin: auto;
+    gap: 30px;
+}
+.shopPromo .card-body {
+    background-color: #0F3CC9;
+    color: #ffffff;
+}
+
+.shopPromo .btn {
+    background-color: #9EB5FA;
+    width: 150px;
+}
+
+.shopPromo .curve {
+    position: absolute;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 80%;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    background-color:#0F3CC9;
+}
+
 @media (min-width:991px) {
-    .posterData{
+    .posterData {
         justify-content: space-between;
     }
 
-    .jioCinemaPoster div{
+    .jioCinemaPoster div {
         height: 100%;
     }
-    .videoContainer{
-        height:448px!important;
-    
+
+    .videoContainer {
+        height: 448px !important;
+
     }
-    video{
+
+    video {
         object-fit: cover;
     }
 }
 
 
 @media (min-width:481px) {
-    
+
     .navbar-collapse {
         margin-left: 50px;
     }
-    
-/* .videoContainer{
+
+    /* .videoContainer{
     margin-top: -45px;
     
 } */
-.videoContainer{
-    height: 204px;
+    .videoContainer {
+        height: 204px;
+    }
+
+    .shopPromo img {
+        height: 23vw;
+    }
+
+
+
+
+
+
+
+
 }
 
-
-
-
-    
-    
-
-
-
-}
 @media (max-width:991px) {
-    .posterData{
+    .posterData {
         flex-direction: column-reverse;
     }
-    
+
 }
 
 @media (max-width: 480px) {
@@ -276,19 +327,22 @@ video{
         color: #000000 !important;
 
     }
+
     .poster h1 {
         font-weight: 500;
         font-size: 2rem;
     }
-    .menuBar{
+
+    .menuBar {
         gap: 40px;
     }
 
-    .videoContainer{
+    .videoContainer {
         height: 204px;
     }
-    .posterData{
+
+    .posterData {
         flex-direction: column-reverse;
     }
-    
+
 }
