@@ -300,6 +300,26 @@ video {
     background-repeat: no-repeat;
 
 }
+.contactContainer{
+    background-color: #0f3cc9;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.contactContainer h4{
+    color: #849BE3;
+}
+
+.contactBtnContainer{
+    margin: auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contactBtnContainer .btn{
+    font-weight: 700;
+}
 
 @media (min-width:991px) {
     .posterData {
