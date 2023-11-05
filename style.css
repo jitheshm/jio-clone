@@ -292,6 +292,15 @@ video {
     text-align: center;
 }
 
+.bussiness{
+    /* background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/jio-com-business-banner-desktop-17Oct2023.webp); */
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 @media (min-width:991px) {
     .posterData {
         justify-content: space-between;
@@ -314,6 +323,9 @@ video {
 
 
 @media (min-width:481px) {
+    .bussiness{
+        background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/jio-com-business-banner-desktop-17Oct2023.webp);;
+    }
 
     .navbar-collapse {
         margin-left: 50px;
@@ -385,6 +397,10 @@ video {
 
     .posterData {
         flex-direction: column-reverse;
+    }
+
+    .bussiness{
+        background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/jio-com-business-banner-mobile-12Oct2023.webp);
     }
 
 }
