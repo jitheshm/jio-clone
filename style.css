@@ -267,6 +267,12 @@ video {
 .productSection{
     text-align: center;
 }
+.carrer{
+    background-image: url(https://jep-asset.akamaized.net/jio/welcome-page-image/carrier-desktop.webp);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
 
 @media (min-width:991px) {
     .posterData {
