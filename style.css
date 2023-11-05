@@ -1,6 +1,9 @@
 body {
     overflow-x: hidden;
 }
+h2{
+    font-weight: 800;
+}
 
 .header {
     background-color: #0f3cc9;
@@ -149,6 +152,14 @@ input {
     background-size: cover;
     background-position: center;
     border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.posterCount .btn{
+    background-color: #FEF2E9;
+    color: #CD3D00;
+    font-weight: 900;
 }
 
 .dataTitle {
@@ -388,6 +399,24 @@ footer .footerLinks a+a ::before {
     top: 3px;
     left: -10px;
     opacity: 0.7;
+}
+
+.posterData h4{
+margin-top: 10px;
+}
+.posterData .content{
+    margin: auto;
+    color: #ffffff;
+    
+}
+.posterData .content h2{
+    font-weight: 900;
+}
+
+.posterData .content .btn{
+    background-color: #FF99DB;
+    color: #690746;
+    font-weight: 600;
 }
 
 @media (min-width:991px) {
