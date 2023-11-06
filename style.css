@@ -1,7 +1,9 @@
-body {
+html,body {
     overflow-x: hidden;
+    
 }
-h2{
+
+h2 {
     font-weight: 800;
 }
 
@@ -129,9 +131,9 @@ input {
 }
 
 .iconContainer {
-    width: 60px;
+    width: 70px;
     padding: 15px;
-
+    font-size: 26px;
     margin: auto;
     border-radius: 60px;
     background-color: #E7EBF8;
@@ -156,7 +158,7 @@ input {
     color: #ffffff;
 }
 
-.posterCount .btn{
+.posterCount .btn {
     background-color: #FEF2E9;
     color: #CD3D00;
     font-weight: 900;
@@ -200,12 +202,69 @@ video {
     display: none;
 }
 
+.slideCard .appsIcon {
+    width: 50px;
+    height: 30px;
+}
+
 .cd1 {
     background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/JioCinema-19-05.webp);
     height: 200px;
     background-size: cover;
     background-color: #D9008D;
 
+}
+
+.cd2 {
+    background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/saavn-19-05-2023.webp);
+    height: 200px;
+    background-size: cover;
+    background-color: #1ECCB0;
+
+}
+
+.cd2 .btn {
+    background-color: #0E5C4F;
+}
+
+.cd3 {
+    background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/JioTV-v2-19-05-2023.webp);
+    height: 200px;
+    background-size: cover;
+    background-color: #0F3CC9;
+    color: #ffffff;
+
+}
+
+.cd3 .btn {
+    background-color: #9EB5FA;
+}
+
+.cd4 {
+
+    background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/JioTV-v2-19-05-2023.webp);
+    height: 200px;
+    background-size: cover;
+    background-color: #FA7D19;
+    color: #46070B;
+}
+
+.cd4 .btn {
+    background-color: #7B1604;
+}
+
+.cd5 {
+
+    background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/JioGames-19-05.webp);
+    height: 200px;
+    background-size: cover;
+    background-color: #00B259;
+    color: #002D16;
+}
+
+.cd5 .btn {
+    background-color: #005028;
+    color: #ffffff;
 }
 
 .slideImgFooter {
@@ -230,7 +289,8 @@ video {
     border-radius: 30px;
     width: 100%;
 }
-.shopPromo .bodyTop{
+
+.shopPromo .bodyTop {
     position: relative;
 }
 
@@ -240,10 +300,11 @@ video {
 
 }
 
-.shopPromo{
+.shopPromo {
     margin: auto;
     gap: 30px;
 }
+
 .shopPromo .card-body {
     background-color: #0F3CC9;
     color: #ffffff;
@@ -251,7 +312,7 @@ video {
 
 .shopPromo .btn {
     background-color: #9EB5FA;
-    width: 150px;
+    width: 152px;
 }
 
 .shopPromo .curve {
@@ -261,49 +322,53 @@ video {
     height: 40px;
     width: 100%;
     bottom: 0;
-    background-color:#0F3CC9;
+    background-color: #0F3CC9;
 }
-.productContainer{
-    margin: auto!important;
+
+.productContainer {
+    margin: auto !important;
     gap: 10px;
     justify-content: space-between;
 }
 
-.productContainer .cardLabel{
+.productContainer .cardLabel {
     background-color: #0C5273;
     color: #ffffff;
     width: fit-content;
 }
 
-.productSection{
+.productSection {
     text-align: center;
 }
-.carrer{
+
+.carrer {
     background-image: url(https://jep-asset.akamaized.net/jio/welcome-page-image/carrier-desktop.webp);
     height: 400px;
     background-size: cover;
     background-position: center;
 }
 
-.storiesContainer{
-    margin: auto!important;
-    
+.storiesContainer {
+    margin: auto !important;
+
     justify-content: space-evenly;
 }
-.storiesContainer .btn{
+
+.storiesContainer .btn {
     width: 113px;
     color: #0F3CC9;
     font-weight: 700;
 }
 
-.storiesSection{
+.storiesSection {
     background-color: #F5F5F5;
 }
-.storiesSection .btnContainer{
+
+.storiesSection .btnContainer {
     text-align: center;
 }
 
-.bussiness{
+.bussiness {
     /* background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/jio-com-business-banner-desktop-17Oct2023.webp); */
     height: 400px;
     background-size: cover;
@@ -311,69 +376,72 @@ video {
     background-repeat: no-repeat;
 
 }
-.contactContainer{
+
+.contactContainer {
     background-color: #0f3cc9;
     color: #ffffff;
     text-align: center;
-    
+
 }
 
-.contactContainer h4{
+.contactContainer h4 {
     color: #849BE3;
 }
 
-.contactBtnContainer{
+.contactBtnContainer {
     margin: auto;
     justify-content: center;
     gap: 20px;
 }
 
-.contactBtnContainer .btn{
+.contactBtnContainer .btn {
     font-weight: 700;
 }
 
-.footerContainer{
+.footerContainer {
     margin: auto;
     align-items: start;
-    
+
 }
 
-.footerDataContainer a{
+.footerDataContainer a {
     text-decoration: none;
     color: #605856;
 }
 
-.footerBtn{
+.footerBtn {
     justify-content: space-between;
 }
 
-.footerRight h4{
+.footerRight h4 {
     font-weight: 900;
 }
 
 
 
-.footerRight .navIcon{
+.footerRight .navIcon {
     background-color: #0F3CC9;
     margin-right: 10px;
 }
 
-footer .row img{
+footer .row img {
     width: 80px;
     height: 40px;
 }
-footer .copyContainer{
+
+footer .copyContainer {
     justify-content: space-between;
     gap: 10px;
 }
 
-footer .copyContainer .row{
+footer .copyContainer .row {
     gap: 10px;
 }
-footer .copy{
+
+footer .copy {
     font-size: 12px;
     /* text-align: center; */
-    
+
 }
 
 
@@ -401,19 +469,21 @@ footer .footerLinks a+a ::before {
     opacity: 0.7;
 }
 
-.posterData h4{
-margin-top: 10px;
+.posterData h4 {
+    margin-top: 10px;
 }
-.posterData .content{
+
+.posterData .content {
     margin: auto;
     color: #ffffff;
-    
+
 }
-.posterData .content h2{
+
+.posterData .content h2 {
     font-weight: 900;
 }
 
-.posterData .content .btn{
+.posterData .content .btn {
     background-color: #FF99DB;
     color: #690746;
     font-weight: 600;
@@ -436,13 +506,17 @@ margin-top: 10px;
     video {
         object-fit: cover;
     }
-   
+    .shopPromo img {
+        height: 15vw!important;
+    }
+
 }
 
 
 @media (min-width:481px) {
-    .bussiness{
-        background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/jio-com-business-banner-desktop-17Oct2023.webp);;
+    .bussiness {
+        background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/jio-com-business-banner-desktop-17Oct2023.webp);
+        ;
     }
 
     .navbar-collapse {
@@ -461,7 +535,7 @@ margin-top: 10px;
         height: 23vw;
     }
 
-   
+
 
 
 
@@ -479,7 +553,7 @@ margin-top: 10px;
 
 }
 
-.footerContainer{
+.footerContainer {
     gap: 20px;
 }
 
@@ -521,7 +595,7 @@ margin-top: 10px;
         flex-direction: column-reverse;
     }
 
-    .bussiness{
+    .bussiness {
         background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/jio-com-business-banner-mobile-12Oct2023.webp);
     }
 
