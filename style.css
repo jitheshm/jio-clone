@@ -3,6 +3,8 @@ html,body {
     
 }
 
+
+
 h2 {
     font-weight: 800;
 }
@@ -57,6 +59,9 @@ a {
     display: flex;
     justify-content: center;
     padding: 5px;
+}
+.navIcon .iconSearch{
+    display: flex!important;
 }
 
 .navSearchContainer {
@@ -392,10 +397,12 @@ video {
     margin: auto;
     justify-content: center;
     gap: 20px;
+    
 }
 
 .contactBtnContainer .btn {
     font-weight: 700;
+    color: #BECEFB!important;
 }
 
 .footerContainer {
@@ -510,6 +517,8 @@ footer .footerLinks a+a ::before {
         height: 15vw!important;
     }
 
+    
+
 }
 
 
@@ -546,16 +555,45 @@ footer .footerLinks a+a ::before {
 
 }
 
-@media (max-width:991px) {
+@media (max-width:990px) {
     .posterData {
         flex-direction: column-reverse;
     }
 
+    .navbar-collapse {
+        position: fixed;
+        top: 65px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 90%;
+        height: 100%;
+        background-color: #ffffff;
+      }
+      
+      .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+      }
+      
+      .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+      }
+      
+      .navbar-toggler.collapsed~.navbar-collapse {
+        transition: left 500ms ease-in-out;
+      }
+    
+      .footerContainer {
+        gap: 20px;
+    }
 }
 
-.footerContainer {
-    gap: 20px;
-}
+
+
+
 
 @media (max-width: 480px) {
     .header {
@@ -598,5 +636,6 @@ footer .footerLinks a+a ::before {
     .bussiness {
         background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/jio-com-business-banner-mobile-12Oct2023.webp);
     }
+    
 
 }
