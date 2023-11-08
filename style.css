@@ -106,13 +106,22 @@ input {
 }
 
 .poster {
-    background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/Homepage-masthead.webp);
+    
     height: 380px;
 
 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.p1{
+    background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/Homepage-masthead.webp);
+}
+.p2{
+    background-image: url(https://jep-asset.akamaized.net/cms/assets/airfiber/JioAirFiber-Homepage-Desktop1.webp);
+}
+.p3{
+    background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/2999-diwali-offer-desk.webp);
 }
 
 .poster h1 {
