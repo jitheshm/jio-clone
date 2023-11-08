@@ -40,6 +40,7 @@ a {
 .navbar-expand-lg .navbar-nav {
 
     align-items: center;
+    
 
 
 }
@@ -618,6 +619,9 @@ footer .footerLinks a+a ::before {
 }
 
 @media (max-width:990px) {
+    .nav-link{
+        color: #000000!important;
+    }
     .posterData {
         flex-direction: column-reverse;
     }
@@ -632,6 +636,7 @@ footer .footerLinks a+a ::before {
         width: 90%;
         height: 100%;
         background-color: #ffffff;
+        
       }
       
       .navbar-collapse.collapsing {
@@ -640,6 +645,7 @@ footer .footerLinks a+a ::before {
       }
       
       .navbar-collapse.show {
+        z-index: 10;
         left: 0;
         transition: left 300ms ease-in-out;
       }
