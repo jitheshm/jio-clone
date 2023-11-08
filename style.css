@@ -23,6 +23,10 @@ h2 {
     height: 40px;
 
 }
+a{
+    text-decoration: none;
+    color: #000000;
+}
 
 img {
     height: 100%;
@@ -44,6 +48,9 @@ a {
     color: #ffffff !important;
     font-weight: 500;
 
+}
+.nav-link:hover{
+    color: #98AFF0!important;
 }
 
 .navbarIcon {
@@ -126,7 +133,14 @@ input {
 .btn {
     border-radius: 20px;
     color: #ffffff;
+    border-color: #70707a!important;
 }
+
+.btn:hover{
+    color: #ffffff!important;
+    border-color: #ffffff!important;
+}
+
 
 .menuBar {
     margin: auto;
@@ -134,7 +148,10 @@ input {
 
     text-align: center;
 }
-
+.menubara:hover{
+    background-color: #E7EBF8!important;
+    border-radius: 20px;
+}
 .iconContainer {
     width: 70px;
     padding: 15px;
