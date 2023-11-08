@@ -136,11 +136,14 @@ input {
     border-color: #70707a!important;
 }
 
-.btn:hover{
+.buy:hover{
     color: #ffffff!important;
     border-color: #ffffff!important;
 }
-
+.true:hover{
+    background-color: #FA7D19!important;
+    color: #ffffff!important;
+}
 
 .menuBar {
     margin: auto;
@@ -204,6 +207,10 @@ input {
 .jioCinemaPoster {
     background-color: #D9008D;
     min-height: 448px;
+}
+.cinemaKnow:hover{
+    background-color: #f3f2f2!important;
+    color: #690746!important;
 }
 
 
@@ -288,7 +295,13 @@ video {
     background-color: #005028;
     color: #ffffff;
 }
-
+.view{
+    color: blue!important;
+}
+.view:hover{
+    color: blue!important;
+    border-color: blue!important;
+}
 .slideImgFooter {
     text-align: center;
 }
@@ -346,6 +359,9 @@ video {
     bottom: 0;
     background-color: #0F3CC9;
 }
+.diveBuy:hover{
+    border-color: #ffffff!important;
+}
 
 .productContainer {
     margin: auto !important;
@@ -398,6 +414,15 @@ video {
     background-repeat: no-repeat;
 
 }
+.cardKnow{
+    border: none;
+    color: blue!important;
+
+}
+.cardKnow:hover{
+    background-color: #E7EBF8!important;
+    color: blue!important;
+}
 
 .contactContainer {
     background-color: #0f3cc9;
@@ -446,6 +471,17 @@ video {
 .footerRight .navIcon {
     background-color: #0F3CC9;
     margin-right: 10px;
+}
+.footerRight .navIcon:hover{
+    background-color: #0A2885;
+}
+
+.footerRight .navIcon{
+    
+    align-items: center;
+}
+.footerRight .navIcon a{
+    width: inherit;
 }
 
 footer .row img {
