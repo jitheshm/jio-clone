@@ -12,6 +12,11 @@ h2 {
 .header {
     background-color: #0f3cc9;
     height: 72px;
+    position: fixed;
+    z-index: 100;
+}
+.carousel{
+    margin-top: 63px;
 }
 
 .navbar {
