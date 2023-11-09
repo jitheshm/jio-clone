@@ -559,6 +559,28 @@ footer .footerLinks a+a ::before {
     font-weight: 600;
 }
 
+.contactBtnContainer .btn:hover{
+   border-color: #ffffff;
+}
+
+.bussiness .btn:hover{
+    background-color: #587ff3!important;
+}
+
+.carrer .btn:hover{
+    background-color: #587ff3!important;
+}
+
+.shopPromo .btn:hover{
+    background-color: #c0cffd;
+}
+
+.slideCard .btn:hover{
+    filter: brightness(85%);
+    color: #ffffff
+}
+
+
 @media (min-width:991px) {
     .posterData {
         justify-content: space-between;
