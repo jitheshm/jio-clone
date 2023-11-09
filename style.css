@@ -560,7 +560,7 @@ footer .footerLinks a+a ::before {
 }
 
 .contactBtnContainer .btn:hover{
-   border-color: #ffffff;
+   border-color: #ffffff!important;
 }
 
 .bussiness .btn:hover{
@@ -578,6 +578,9 @@ footer .footerLinks a+a ::before {
 .slideCard .btn:hover{
     filter: brightness(85%);
     color: #ffffff
+}
+.footerDataContainer p:hover{
+background-color: #d6d2d2!important;
 }
 
 
